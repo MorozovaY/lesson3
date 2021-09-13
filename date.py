@@ -1,3 +1,5 @@
+#Напечатайте в консоль даты: вчера, сегодня, 30 дней назад
+
 def dates():
     from datetime import datetime, date, timedelta
 
@@ -18,7 +20,7 @@ def dates():
 dates()
 
 
-print('Получение даты из строки:')
+#Превратите строку "01/01/25 12:10:03.234567" в объект datetime
 
 from datetime import datetime
 print(datetime.strptime('01/01/25 12:10:03.234567', '%d/%m/%y %H:%M:%S.%f'))
